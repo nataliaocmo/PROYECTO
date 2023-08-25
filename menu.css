@@ -1,0 +1,24 @@
+/*header*/
+header
+{
+    display: flex;
+    align-items: center;
+    background-color: rgb(86, 49, 49);
+}
+h1
+{
+    color: white;
+}
+#cartimg
+{
+   filter: invert(1);
+}
+#menuimg
+{
+    filter: invert(1);
+}
+.btn
+{
+    background-color: transparent;
+    border: none;
+}
