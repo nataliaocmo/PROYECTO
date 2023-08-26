@@ -88,8 +88,11 @@ footer a{
 }
 .img
 {
-    background-image: url(Comida.png);
-    opacity: 0.8;
+    background-image: url("food.jpg");
+    opacity: 0.9;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     color: white;
     text-align: center;
     text-shadow: 50%;
@@ -103,6 +106,7 @@ footer a{
     color: white;
     text-shadow: 5px 5px 5px #000000;
 }
+
 .pidedomicilio {
     
     background: rgb(83,9,0);
@@ -164,7 +168,15 @@ footer a{
     background-color:rgb(100, 25, 25); ;
 }
 
-
-
-
+.recomendacion
+{
+    background-image: url("especialidad.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
 
