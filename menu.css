@@ -134,11 +134,11 @@ footer a{
 .comida{
     flex-wrap: wrap;
    
-    margin-top: 20px;
+    margin-top: 0px;
 }
 .comida > div {
     position: relative;
-    margin: 20px;
+    margin: 0px;
 }
 .comida img {
    
@@ -146,7 +146,7 @@ footer a{
     align-items: center;
     width: 100%; /* Ajusta el ancho de la imagen al ancho del contenedor */
     max-width: 300px; /* Ajusta el ancho máximo de la imagen */
-    margin: 10px 0; 
+    margin: 0px 0; 
     
 }
 .comida a {
@@ -180,6 +180,12 @@ footer a{
     background-size: cover;
     position: relative;
     text-align: center;
+    color: white;
+    text-align: center;
+    text-shadow: 50%;
+    font-size: 5rem;
+    padding: 3rem;
+    margin: 0px; 
 }
 .entradas
 {
@@ -195,7 +201,6 @@ footer a{
     text-shadow: 50%;
     font-size: 5rem;
     padding: 3rem;
-    margin: 0px;
-    
+    margin: 0px; 
 }
 
