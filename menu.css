@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Handjet&family=Qwitcher+Grypen:wght@700&family=Roboto+Mono:wght@200&family=Tangerine&display=swap');
 
 /*header*/
-
+*{
+    font-family: 'Qwitcher Grypen', cursive;
+}
 header
 {
     display: flex;
@@ -114,11 +116,11 @@ footer a{
     background: radial-gradient(circle, rgba(83,9,0,1) 49%, rgb(100, 19, 19) 69%); 
     border: none;
     border-radius: 10px; 
-    padding: 10px 20px; 
+    padding: 20px 40px; 
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 20px;
     cursor: pointer;
 }
 .pidedomicilio:hover {
@@ -204,12 +206,12 @@ footer a{
     text-align: center;
     text-shadow: 50%;
     font-size: 5rem;
-    padding: 3rem;
+    padding: 0rem;
     margin: 0px; 
 }
 .Platosprincipales{
     background-image: url("platosprincipales.jpeg");
-    height: 300px;
+    height: 400px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -219,7 +221,7 @@ footer a{
     text-align: center;
     text-shadow: 50%;
     font-size: 5rem;
-    padding: 0rem;
+    padding: 3rem;
     margin: 0px;
 }
 .Bedidas{
@@ -234,7 +236,7 @@ footer a{
     text-align: center;
     text-shadow: 50%;
     font-size: 5rem;
-    padding: 0rem;
+    padding: 3rem;
     margin: 0px;
 }
 .Postres{
@@ -249,7 +251,7 @@ footer a{
     text-align: center;
     text-shadow: 50%;
     font-size: 5rem;
-    padding: 0rem;
+    padding: 3rem;
     margin: 0px;
 }
 
