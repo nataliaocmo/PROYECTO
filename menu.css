@@ -82,7 +82,7 @@ h2
 }
 .img
 {
-    background-image: url(Comida.png);
+    background-image: url("Comida.png");
     opacity: 0.8;
     color: white;
     text-align: center;
@@ -96,4 +96,15 @@ h2
     margin: 2rem;
     color: white;
     text-shadow: 5px 5px 5px #000000;
+}
+.recomendacion
+{
+    background-image: url("especialidad.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
 }
