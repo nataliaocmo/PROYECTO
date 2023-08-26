@@ -3,28 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="menu.css" rel="stylesheet">
+    <script src="" defer></script>
     <title>pagina principal</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
     <header>
+
         <h1>Encabezado de la Página</h1>
-        <nav>
-            
-           
+
+        <h1>il Migliore</h1>
+       <button class="btn"><img id="cartimg" src="shopping cart.png"></button>
+        <nav class="nav">
+            <button class="btn" id="btnmenu"><img id="menuimg" src="menu toggle.png"></button>
+            <div class="dropdown">
+                <li ><a href="">Sobre Nosotros</a></li>
+                <li ><a href="">Integrantes</a></li>
+            </div>
         </nav>
     </header>
-
     <main>
         <h2>Mas allá de la cocina</h2>
-        <p> Comida Italiana</p>
-        <form>
-			<p class="comida_italiana">
-				<img  src="comida.png"  alt="comida tipica" title="italian coucine"
-/>	
-			</p>
-            <button class="pidedomicilio"> <a href="index.html"> Pide a domicilio</a></button>
-		</form>
+        <div class="img">
+            <p id="italia"> Comida Italiana</p>
+            <form>
+                <button class="pidedomicilio"> <a href="index.html"> Pide a domicilio</a></button>
+            </form>
+        </div>
+
         <div class="comida">
         <div class="Recomendación">
             <img  src="recomendacion.png"  alt="comida tipica italiana para entradas" title="italian coucine"/>
@@ -55,5 +62,7 @@
 		<a href=""> Facebook</a>
 		<a href=""> Whatsapp</a>
     </footer>
+</body>
+</html>
 </body>
 </html>
