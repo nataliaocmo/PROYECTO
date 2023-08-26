@@ -1,12 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Handjet&family=Qwitcher+Grypen:wght@700&family=Roboto+Mono:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Handjet&family=Qwitcher+Grypen:wght@700&family=Roboto+Mono:wght@200&family=Tangerine&display=swap');
+
 /*header*/
 header
 {
     display: flex;
     align-items: center;
     justify-content:center;
-    background-color: rgb(86, 49, 49);
-    margin: 1px;
+    background: rgb(83,9,0);
+    background: radial-gradient(circle, rgba(83,9,0,1) 49%, rgba(123,49,49,1) 69%);
+    margin: 0px;
 }
 h1
 {
@@ -70,12 +72,28 @@ h2
 {
     display: flex;
     justify-content: center;
-    background: rgb(132,25,54);
-    background: radial-gradient(circle, rgba(132,25,54,1) 58%, rgba(82,13,26,1) 100%, rgba(255,0,40,1) 100%);
+    background: rgb(83,9,0);
+    background: radial-gradient(circle, rgba(83,9,0,1) 49%, rgba(123,49,49,1) 69%); 
     color: white;
     padding: 1rem;
-    margin: 1px;
+    margin: 0px;
     font-family: 'Qwitcher Grypen', cursive;
     font-size: 2rem;
-    
+}
+.img
+{
+    background-image: url(Comida.png);
+    opacity: 0.8;
+    color: white;
+    text-align: center;
+    text-shadow: 50%;
+    font-size: 5rem;
+    padding: 3rem;
+    margin: 0px;
+}
+#italia 
+{
+    margin: 2rem;
+    color: white;
+    text-shadow: 5px 5px 5px #000000;
 }
