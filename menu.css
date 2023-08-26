@@ -135,11 +135,11 @@ footer a{
 .comida{
     flex-wrap: wrap;
    
-    margin-top: 20px;
+    margin-top: 0px;
 }
 .comida > div {
     position: relative;
-    margin: 20px;
+    margin: 0px;
 }
 .comida img {
    
@@ -184,6 +184,12 @@ footer a{
     background-size: cover;
     position: relative;
     text-align: center;
+    color: white;
+    text-align: center;
+    text-shadow: 50%;
+    font-size: 5rem;
+    padding: 3rem;
+    margin: 0px; 
 }
 .entradas
 {
@@ -198,9 +204,8 @@ footer a{
     text-align: center;
     text-shadow: 50%;
     font-size: 5rem;
-    padding: 0rem;
-    margin: 0px;
-    
+    padding: 3rem;
+    margin: 0px; 
 }
 .Platosprincipales{
     background-image: url("platosprincipales.jpeg");
