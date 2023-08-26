@@ -116,7 +116,7 @@ footer a{
     background: radial-gradient(circle, rgba(83,9,0,1) 49%, rgb(100, 19, 19) 69%); 
     border: none;
     border-radius: 10px; 
-    padding: 20px 40px; 
+    padding: 10px 20px; 
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -133,6 +133,7 @@ footer a{
 .pidedomicilio a {
     color: white; 
     text-decoration: none;
+    font-size: 30px;
 }
 .comida{
     flex-wrap: wrap;
@@ -210,13 +211,8 @@ footer a{
     margin: 0px; 
 }
 .Platosprincipales{
-<<<<<<< HEAD
     background-image: url("principal.avif");
     height: 300px;
-=======
-    background-image: url("platosprincipales.jpeg");
-    height: 400px;
->>>>>>> 0718ab4b0ace16e387add6515e8aa73cee469bc2
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
