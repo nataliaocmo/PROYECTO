@@ -1,13 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet&family=Qwitcher+Grypen:wght@700&family=Roboto+Mono:wght@200&display=swap');
 /*header*/
 header
 {
     display: flex;
     align-items: center;
+    justify-content:center;
     background-color: rgb(86, 49, 49);
+    margin: 1px;
 }
 h1
 {
     color: white;
+    display: flex;
+    color: white;
+    font-size: 3rem;
+    align-items: center;
+    padding: 1rem;
+    font-family: 'Qwitcher Grypen', cursive;
+}
+.btn
+{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
 }
 #cartimg
 {
@@ -17,9 +32,50 @@ h1
 {
     filter: invert(1);
 }
-.btn
+#btnmenu {
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+}
+.btn :hover, #menuimg :hover, #cartimg :hover
 {
-    background-color: transparent;
-    border: none;
-    color: blue;
+    background-color: lightgrey;
+    filter: none;
+}
+
+.dropdown {
+    display: none ;
+    position: absolute;
+    background-color: rgb(86, 49, 49);
+    list-style-type:none;
+    padding: 1rem;
+    z-index: 1;
+}
+.dropdown a
+{
+    flex-direction: column;
+    color: white;
+    padding: 12px 16px;
+    margin-top: 1rem;
+}
+.dropdown li :hover
+{
+    background-color: lightgrey;
+    box-sizing: content-box;
+    color: black;
+}
+.show{display: block;}
+
+h2
+{
+    display: flex;
+    justify-content: center;
+    background: rgb(132,25,54);
+    background: radial-gradient(circle, rgba(132,25,54,1) 58%, rgba(82,13,26,1) 100%, rgba(255,0,40,1) 100%);
+    color: white;
+    padding: 1rem;
+    margin: 1px;
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size: 2rem;
+    
 }
