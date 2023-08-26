@@ -210,13 +210,8 @@ footer a{
     margin: 0px; 
 }
 .Platosprincipales{
-<<<<<<< HEAD
     background-image: url("principal.avif");
     height: 300px;
-=======
-    background-image: url("platosprincipales.jpeg");
-    height: 400px;
->>>>>>> 0718ab4b0ace16e387add6515e8aa73cee469bc2
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
