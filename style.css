@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Handjet&family=Qwitcher+Grypen:wght@700&family=Roboto+Mono:wght@200&family=Tangerine&display=swap');
+
+/*header*/
+*{
+    color: white;
+    font-family: 'Qwitcher Grypen', cursive;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #8B0000; /* Color vino tinto */
+    color: white;
+}
+
+header {
+    background-color: #d1d0cb;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2rem;
+    color:black
+}
+
+#recomendacion,
+#entradas,
+#platos,
+#bebidas,
+#postres {
+    text-align: center;
+    padding: 40px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    background: rgb(83,9,0);
+    background: radial-gradient(circle, rgba(83,9,0,1) 49%, rgba(123,49,49,1) 69%); 
+    color: white;
+    padding: 1rem;
+    margin: 0px;
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size: 2rem;
+}
+
+
+ul,p {
+    list-style: disc;
+    margin: 0 auto;
+    max-width: 600px;
+    font-size: 40px;
+}
+
+li {
+    margin: 8px 0;
+}
+
+
+
+
