@@ -14,8 +14,7 @@ header
     margin: 0px;
 }
 h1
-{
-    
+{  
     display: flex;
     color: white;
     font-size: 3rem;
@@ -29,39 +28,41 @@ h1
     cursor: pointer;
 }
 
-.nav {
+.nav 
+{
     position: relative;
     display: inline-block;
     background-color: rgb(83,9,0);
-  }
+}
   
-  .dropdown {
+.dropdown
+{
     display: none;
     position: absolute;
     background-color: #f9f9f9;
+    text-decoration: none;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-  }
+}
   
-  .dropdown a {
+.dropdown a {
     color: black;
+    font-size: 2rem;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-  }
+}
   
-  .dropdown a:hover {background-color: #f1f1f1}
+.dropdown a:hover {background-color: #b5a4a4}
   
-  .nav:hover .dropdown {
+.nav:hover .dropdown {
     display: block;
-  }
+}
   
-.nav:hover .btn {
+.nav:hover, .btn:hover {
     background-color: #713838;
-  }
-
-
+}
 #cartimg
 {
    filter: invert(1);
@@ -74,12 +75,6 @@ h1
     position: relative;
     display: inline-block;
 
-}
-.dropdown li :hover
-{
-    background-color: lightgrey;
-    box-sizing: content-box;
-    color: black;
 }
 
 h2, h3,footer
