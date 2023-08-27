@@ -27,6 +27,10 @@ header {
     padding: 10px 20px; 
     text-align: right; 
 }
+.btn:hover ,#cartimg:hover
+{
+    background-color: #f39e9e;
+}
 
 h1 {
     margin: 0;
