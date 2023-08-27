@@ -32,10 +32,11 @@ h1
 .nav {
     position: relative;
     display: inline-block;
-    background-color: rgb(86, 49, 49);
+    background-color: rgb(83,9,0);
   }
   
   .dropdown {
+    display: none;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
@@ -52,12 +53,12 @@ h1
   
   .dropdown a:hover {background-color: #f1f1f1}
   
-  .nav:hover .dropdown-content {
+  .nav:hover .dropdown {
     display: block;
   }
   
-  .nav:hover .btn {
-    background-color: #3e8e41;
+.nav:hover .btn {
+    background-color: #713838;
   }
 
 
@@ -72,7 +73,7 @@ h1
 #btnmenu {
     position: relative;
     display: inline-block;
-    margin: 20px;
+
 }
 .dropdown li :hover
 {
