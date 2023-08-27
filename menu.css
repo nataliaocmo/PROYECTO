@@ -21,7 +21,6 @@ h1
     font-size: 3rem;
     align-items: center;
     padding: 1rem;
-    font-family: 'Qwitcher Grypen', cursive;
 }
 .btn
 {
@@ -29,6 +28,39 @@ h1
     border: none;
     cursor: pointer;
 }
+
+.nav {
+    position: relative;
+    display: inline-block;
+    background-color: rgb(86, 49, 49);
+  }
+  
+  .dropdown {
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: #f1f1f1}
+  
+  .nav:hover .dropdown-content {
+    display: block;
+  }
+  
+  .nav:hover .btn {
+    background-color: #3e8e41;
+  }
+
+
 #cartimg
 {
    filter: invert(1);
@@ -42,35 +74,12 @@ h1
     display: inline-block;
     margin: 20px;
 }
-.btn :hover, #menuimg :hover, #cartimg :hover
-{
-    background-color: lightgrey;
-    filter: none;
-    display: block;
-}
-
-.dropdown {
-    display: none ;
-    position: absolute;
-    background-color: rgb(86, 49, 49);
-    list-style-type:none;
-    padding: 1rem;
-    z-index: 1;
-}
-.dropdown a
-{
-    flex-direction: column;
-    color: white;
-    padding: 12px 16px;
-    margin-top: 1rem;
-}
 .dropdown li :hover
 {
     background-color: lightgrey;
     box-sizing: content-box;
     color: black;
 }
-.show{display: block;}
 
 h2, h3,footer
 {
@@ -81,7 +90,6 @@ h2, h3,footer
     color: white;
     padding: 1rem;
     margin: 0px;
-    font-family: 'Qwitcher Grypen', cursive;
     font-size: 2rem;
 }
 footer a{
